@@ -1,0 +1,41 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 18px 40px;
+	background: var(--color-primary);
+	color: #fff;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.header__title {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.header__user {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.header__logout {
+	padding: 8px 18px;
+	border: 1.5px solid rgba(255, 255, 255, 0.6);
+	border-radius: var(--radius-pill);
+	background: transparent;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.header__logout:hover {
+	background: rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 640px) {
+	.header {
+		padding: 14px 16px;
+	}
+}

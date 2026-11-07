@@ -1,0 +1,42 @@
+:root {
+	--color-primary: #241d86;
+	--color-primary-hover: #1c1769;
+	--color-primary-light: #5c5cb8;
+	--color-primary-soft: #c5c2f0;
+	--color-primary-tint: #efeefc;
+	--color-text: #4a4340;
+	--color-text-muted: #8a8280;
+	--color-border: #cfcbd6;
+	--color-error: #c0392b;
+	--color-error-bg: #fdecea;
+
+	--radius-card: 32px;
+	--radius-field: 18px;
+	--radius-pill: 999px;
+
+	--font: "Consolas", "Menlo", "Monaco", monospace;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	min-height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: var(--font);
+	color: var(--color-text);
+	background: #ffffff;
+}
+
+button,
+input,
+select,
+textarea {
+	font-family: inherit;
+}
